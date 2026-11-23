@@ -32,6 +32,7 @@ def _task_names(config: JobConfig) -> set[str]:
             {
                 "lucasdmo_feature_merge",
                 "lucasdmo_rebase_conflicts",
+                "lucasdmo_safe_archive_extraction",
                 "lucasdmo_skill_release_notes",
             },
         ),

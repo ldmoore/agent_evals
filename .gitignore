@@ -16,3 +16,4 @@ build/
 jobs/
 .harbor/
 .DS_Store
+datasets/swebench-verified-100/

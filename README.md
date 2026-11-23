@@ -110,6 +110,14 @@ failed runs, it converts that journal into `agent/trajectory.json` for Harbor's
 Trajectory tab and records reported token totals. See
 [logging and custom notes](docs/running-agents.md#review-results-in-harbors-ui).
 
+## Efficient SWE-bench evaluation
+
+Use the committed [SWE-bench Verified 100](docs/swebench-verified-100.md) manifest
+for a reproducible, repository-stratified 100-task benchmark. The
+[setup-and-troubleshooting guide](docs/swebench-verified-100-setup.md) has the
+complete local commands, including Apple Silicon, Docker storage, and Docker Hub
+rate-limit guidance.
+
 ## Compare models
 
 `--model` is repeatable; Harbor passes each run's model to the sibling CLI:
